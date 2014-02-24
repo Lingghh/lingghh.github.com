@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jeroer.com/2014/02/25/hello-world/</loc>
+    <lastmod>2014-02-24T16:45:38.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jeroer.com/todo-list/index.html</loc>
     <lastmod>2014-02-24T17:25:35.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://jeroer.com/about/index.html</loc>
     <lastmod>2014-02-24T17:24:21.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jeroer.com/2014/02/25/hello-world/</loc>
-    <lastmod>2014-02-24T16:45:38.000Z</lastmod>
   </url>
   
 </urlset>

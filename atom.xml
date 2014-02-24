@@ -4,7 +4,7 @@
   <subtitle><![CDATA[i am a devil.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeroer.com/"/>
-  <updated>2014-02-24T18:09:09.796Z</updated>
+  <updated>2014-02-24T18:21:01.625Z</updated>
   <id>http://jeroer.com/</id>
   
   <author>
@@ -19,10 +19,12 @@
     <link href="http://jeroer.com/2014/02/25/hello-world/"/>
     <id>http://jeroer.com/2014/02/25/hello-world/</id>
     <published>2014-02-24T16:45:38.000Z</published>
-    <updated>2014-02-24T16:45:38.000Z</updated>
+    <updated>2014-02-24T18:20:45.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
 ]]></content>
     
+    
+      <category term="test" scheme="http://jeroer.com/tags/test/"/>
     
   </entry>
   

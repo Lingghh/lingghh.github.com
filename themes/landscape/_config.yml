@@ -1,0 +1,28 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+  ToDo: /todo
+  Rss: /atom.xml
+
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- archive
+
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

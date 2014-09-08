@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Jero's Blog]]></title>
-  <subtitle><![CDATA[i am a devil.]]></subtitle>
+  <subtitle><![CDATA[自娱自乐]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeroer.com/"/>
-  <updated>2014-02-25T08:01:59.356Z</updated>
+  <updated>2014-09-07T20:06:35.956Z</updated>
   <id>http://jeroer.com/</id>
   
   <author>
-    <name><![CDATA[Jero Lin]]></name>
-    <email><![CDATA[Lingh0927@hotmail.com]]></email>
+    <name><![CDATA[Jero]]></name>
+    <email><![CDATA[lingh0927@hotmail.com]]></email>
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://jeroer.com/2014/09/08/hello-world/"/>
+    <id>http://jeroer.com/2014/09/08/hello-world/</id>
+    <published>2014-09-07T19:05:46.000Z</published>
+    <updated>2014-09-07T19:05:46.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[test]]></title>
     <link href="http://jeroer.com/2014/02/25/test/"/>
     <id>http://jeroer.com/2014/02/25/test/</id>
     <published>2014-02-24T21:57:21.000Z</published>
-    <updated>2014-02-24T21:57:50.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="test">Test</h1>
-<p>&lt;--!more--&gt;</p>
+    <updated>2014-09-07T19:34:04.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Test">Test</h1>
+<a id="more"></a>
 ]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Test">Test</h1>
+]]>
     
+    </summary>
     
   </entry>
   
@@ -34,183 +69,16 @@
     <published>2014-02-24T18:57:26.000Z</published>
     <updated>2014-02-24T19:24:58.000Z</updated>
     <content type="html"><![CDATA[<p>  今天从下午捣鼓到现在，终于将自己的个人博客搞定了。<br>  因为想在blog上写一些东西，那需要用markdown来编辑。<br>  下面是 markdown使用指南。<br><a id="more"></a></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-</pre></td><td class="code"><pre><span class="header">#这里是一级标题</span>
-<span class="header">###这里是三级标题</span>
-<span class="header">######这里是六级标题，就到这里了，木有七级！</span>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div></pre></td><td class="code"><pre><div class="line"><span class="header">#这里是一级标题</span></div><div class="line"><span class="header">###这里是三级标题</span></div><div class="line"><span class="header">######这里是六级标题，就到这里了，木有七级！</span></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">段落前面没有缩进，看到了吧。</div><div class="line"></div><div class="line">　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格</div><div class="line"></div><div class="line">行尾一个回车换行，显示效果依然是是一行。</div><div class="line">我说的对吧~</div><div class="line"></div><div class="line">想要分成两行，需要在行尾输入两个空格。  </div><div class="line">我说的对吧~</div><div class="line"></div><div class="line">想要开始一个新的段落，乖乖的按两下回车吧</div><div class="line"></div><div class="line">我说的对吧~</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="strong">**两个星号包围的是粗体**</span></div><div class="line"></div><div class="line"><span class="emphasis">*一个星号包围的是斜体*</span></div><div class="line"></div><div class="line"><span class="blockquote">&gt; 引用内容，多行的话，用两个空格结尾吧  </span></div><div class="line">是吧~</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="code">`反引号包围的是行内代码`</span>，这个按键在「Tab」上边</div><div class="line"></div><div class="line"><span class="code">``嵌套的话，可以使用`</span>两个双引号<span class="code">`嵌套在外面`</span>`</div><div class="line"></div><div class="line"><span class="code">```</span>python</div><div class="line"><span class="header">#三个反引号包围的是代码块。</span></div><div class="line"><span class="header">#会显示行号。</span></div><div class="line"><span class="header">#也有高亮显示</span></div><div class="line"><span class="header">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span></div><div class="line">import os</div><div class="line">print os.sep</div><div class="line"><span class="code">```</span></div><div class="line">嵌套的话，可以使用六个反引号嵌套在外面。</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="bullet">1. </span>有序列表1，注意点之后的空格。</div><div class="line"><span class="bullet">2. </span>有序列表2.</div><div class="line"><span class="bullet">1. </span>我这里写成1，在显示时还是3，厉害不。</div><div class="line"></div><div class="line"><span class="bullet">1. </span>有序列表1</div><div class="line"> 详细内容，注意前面有一个空格</div><div class="line"><span class="bullet">2. </span>有序列表2</div><div class="line"> 详细内容</div><div class="line"></div><div class="line"><span class="bullet">- </span>无序列表1</div><div class="line"><span class="bullet">- </span>无序列表2</div><div class="line"><span class="bullet">- </span>无序列表3</div><div class="line"> - 小1，注意前面有一个空格</div><div class="line"> - 小2</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">超级链接：[<span class="link_label">我的博客</span>](<span class="link_url">http://zipperary.com</span>)</div><div class="line"></div><div class="line">插入图片：![<span class="link_label">好看不</span>](<span class="link_url">http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg</span>)</div><div class="line"></div><div class="line">另外，markdown完全兼容html，你可以用html插入这些东西，例如：</div><div class="line"></div><div class="line"><span class="xml"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> <span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></span></div><div class="line"></div><div class="line"></div><div class="line">~~删除线~~</div><div class="line"></div><div class="line"></div><div class="line">分割线用<span class="code">`---`</span>，注意单独一样，上面必须是一个空行</div><div class="line"></div><div class="line"><span class="horizontal_rule">---</span></div><div class="line"></div><div class="line">更多高级的格式，请果断插入html标签</div></pre></td></tr></table></figure>
 
-
-
-段落前面没有缩进，看到了吧。
-
-　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格
-
-行尾一个回车换行，显示效果依然是是一行。
-我说的对吧~
-
-想要分成两行，需要在行尾输入两个空格。  
-我说的对吧~
-
-想要开始一个新的段落，乖乖的按两下回车吧
-
-我说的对吧~
-
-
-
-
-<span class="strong">**两个星号包围的是粗体**</span>
-
-<span class="emphasis">*一个星号包围的是斜体*</span>
-
-<span class="blockquote">&gt; 引用内容，多行的话，用两个空格结尾吧  </span>
-是吧~
-
-
-
-<span class="code">`反引号包围的是行内代码`</span>，这个按键在「Tab」上边
-
-<span class="code">``嵌套的话，可以使用`</span>两个双引号<span class="code">`嵌套在外面`</span>`
-
-<span class="code">```</span>python
-<span class="header">#三个反引号包围的是代码块。</span>
-<span class="header">#会显示行号。</span>
-<span class="header">#也有高亮显示</span>
-<span class="header">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span>
-import os
-print os.sep
-<span class="code">```</span>
-嵌套的话，可以使用六个反引号嵌套在外面。
-
-
-
-
-<span class="bullet">1. </span>有序列表1，注意点之后的空格。
-<span class="bullet">2. </span>有序列表2.
-<span class="bullet">1. </span>我这里写成1，在显示时还是3，厉害不。
-
-<span class="bullet">1. </span>有序列表1
- 详细内容，注意前面有一个空格
-<span class="bullet">2. </span>有序列表2
- 详细内容
-
-<span class="bullet">- </span>无序列表1
-<span class="bullet">- </span>无序列表2
-<span class="bullet">- </span>无序列表3
- - 小1，注意前面有一个空格
- - 小2
-
-
-
-超级链接：[<span class="link_label">我的博客</span>](<span class="link_url">http://zipperary.com</span>)
-
-插入图片：![<span class="link_label">好看不</span>](<span class="link_url">http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg</span>)
-
-另外，markdown完全兼容html，你可以用html插入这些东西，例如：
-
-<span class="xml"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> <span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></span>
-
-
-~~删除线~~
-
-
-分割线用<span class="code">`---`</span>，注意单独一样，上面必须是一个空行
-
-<span class="horizontal_rule">---</span>
-
-更多高级的格式，请果断插入html标签
-</pre></td></tr></table></figure>
-
-<p>此段 Markdown代码 转自 <a href="http://zipperary.com" target="_blank">zipperary.com</a></p>
+<p>此段 Markdown代码 转自 <a href="http://zipperary.com" target="_blank" rel="external">zipperary.com</a></p>
 <p>显示如下：</p>
-<h1 id="-">这里是一级标题</h1>
-<h3 id="-">这里是三级标题</h3>
-<h6 id="-">这里是六级标题，就到这里了，木有七级！</h6>
+<h1 id="这里是一级标题">这里是一级标题</h1>
+<h3 id="这里是三级标题">这里是三级标题</h3>
+<h6 id="这里是六级标题，就到这里了，木有七级！">这里是六级标题，就到这里了，木有七级！</h6>
 <p>段落前面没有缩进，看到了吧。</p>
 <p>　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格</p>
-<p>行尾一个回车换行，显示效果依然是是一行。
-我说的对吧~</p>
+<p>行尾一个回车换行，显示效果依然是是一行。<br>我说的对吧~</p>
 <p>想要分成两行，需要在行尾输入两个空格。<br>我说的对吧~</p>
 <p>想要开始一个新的段落，乖乖的按两下回车吧</p>
 <p>我说的对吧~</p>
@@ -221,19 +89,7 @@ print os.sep
 </blockquote>
 <p><code>反引号包围的是行内代码</code>，这个按键在「Tab」上边</p>
 <p><code>嵌套的话，可以使用`两个双引号`嵌套在外面</code></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-</pre></td><td class="code"><pre><span class="comment">#三个反引号包围的是代码块。</span>
-<span class="comment">#会显示行号。</span>
-<span class="comment">#也有高亮显示</span>
-<span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span>
-<span class="keyword">import</span> os
-<span class="keyword">print</span> os.sep
-</pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#三个反引号包围的是代码块。</span></div><div class="line"><span class="comment">#会显示行号。</span></div><div class="line"><span class="comment">#也有高亮显示</span></div><div class="line"><span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span></div><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">print</span> os.sep</div></pre></td></tr></table></figure>
 
 <p>嵌套的话，可以使用六个反引号嵌套在外面。</p>
 <ol>
@@ -241,11 +97,9 @@ print os.sep
 <li>有序列表2.</li>
 <li><p>我这里写成1，在显示时还是3，厉害不。</p>
 </li>
-<li><p>有序列表1
-详细内容，注意前面有一个空格</p>
+<li><p>有序列表1<br>详细内容，注意前面有一个空格</p>
 </li>
-<li>有序列表2
-详细内容</li>
+<li>有序列表2<br>详细内容</li>
 </ol>
 <ul>
 <li>无序列表1</li>
@@ -262,7 +116,10 @@ print os.sep
 <hr>
 <p>更多高级的格式，请果断插入html标签</p>
 ]]></content>
-    <summary type="html"><![CDATA[<p>  今天从下午捣鼓到现在，终于将自己的个人博客搞定了。<br>  因为想在blog上写一些东西，那需要用markdown来编辑。<br>  下面是 markdown使用指南。<br>]]></summary>
+    <summary type="html">
+    <![CDATA[<p>  今天从下午捣鼓到现在，终于将自己的个人博客搞定了。<br>  因为想在blog上写一些东西，那需要用markdown来编辑。<br>  下面是 markdown使用指南。<br>]]>
+    
+    </summary>
     
       <category term="hexo" scheme="http://jeroer.com/tags/hexo/"/>
     
